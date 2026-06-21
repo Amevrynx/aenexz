@@ -14,14 +14,8 @@
 | MAC Address       | ****************  |
 | Connection Type   | Wi-Fi             |
 
-<<<<<<< HEAD
-![hostname](host.png)
----
-(I removed mac address for security concerns and public exposure)
-=======
 ![hostname](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/host.png?raw=true)
  (I removed mac address for security concerns and public exposure)
->>>>>>> de48782 (replaced images with github urls)
 
 ---
 
