@@ -15,6 +15,7 @@
 | Connection Type   | Wi-Fi             |
 
 ![hostname](host.png)
+---
 (I removed mac address for security concerns and public exposure)
 
 ---
