@@ -11,8 +11,11 @@
 | Subnet Mask       | 255.255.255.0     |
 | Default Gateway   | 192.168.1.1       |
 | DNS Servers       | 8.8.8.8, 1.1.1.1  |
-| MAC Address       | 14:13:33:8c:f4:99 |
+| MAC Address       | ****************  |
 | Connection Type   | Wi-Fi             |
+
+![hostname](host.png)
+ (I removed mac address for security concerns and public exposure)
 
 ---
 
