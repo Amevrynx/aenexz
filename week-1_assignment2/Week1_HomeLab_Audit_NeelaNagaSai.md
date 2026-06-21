@@ -198,7 +198,8 @@ Usable Range:
 
 **ifconfig results**
 ![ifconfig image1](ifconfig1.png)
-![ifconfig image2](ifconfig2.png)
+
+**i removed full ifconfig for security issues**
 
 **netstat results**
 ![netstat image](nt2.png)
@@ -308,10 +309,6 @@ The network is relatively secure and uses modern protocols with no Telnet or RDP
 | 12:30 | Visited GitHub              | HTTPS          | 443   | Yes        | Encrypted traffic           |
 | 13:00 | Watched videos              | HTTPS          | 443   | Yes        | Encrypted traffic           |
 | 13:30 | Accessed PostgreSQL locally | TCP/PostgreSQL | 5432  | Local Only | Not externally visible      |
-
-## Observation
-
-Most network activity uses HTTPS and SSH, which provide confidentiality through encryption. Traditional DNS traffic and local HTTP services remain visible to devices on the same network. Migrating local services to HTTPS and using DNS-over-HTTPS would improve privacy and security.
 
 ---
 
