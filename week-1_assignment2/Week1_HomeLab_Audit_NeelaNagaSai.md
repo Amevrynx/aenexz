@@ -150,7 +150,7 @@ Telnet is insecure because it sends credentials in plaintext.
 
 ---
 
-## Step 3: Top 10 Processes
+## Step 3: Top 10 common processes I daily use
 
 | Process        | Purpose                    |
 | -------------- | -------------------------- |
@@ -164,6 +164,8 @@ Telnet is insecure because it sends credentials in plaintext.
 | dnsmasq        | DNS and DHCP               |
 | nginx          | Web server                 |
 | netdata        | Monitoring service         |
+
+![ps aux](ps.png)
 
 ### Unknown Processes
 
