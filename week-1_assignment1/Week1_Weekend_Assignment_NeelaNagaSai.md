@@ -7,7 +7,7 @@
 
 ### HTTP Traffic
 
-![HTTP Capture](http.png)
+![HTTP Capture](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment1/http.png?raw=true)
 
 **Figure 1:** HTTP packets captured while visiting `neverssl.com`.
 
@@ -15,7 +15,7 @@
 
 ### DNS Traffic
 
-![DNS Capture](dns.png)
+![DNS Capture](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment1/dns.png?raw=true)
 
 **Figure 2:** DNS queries sent from `192.168.1.8` to Google's DNS server `8.8.8.8`.
 
@@ -23,7 +23,7 @@
 
 ### HTTPS Traffic
 
-![HTTPS Capture](tcp.png)
+![HTTPS Capture](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment1/tcp.png?raw=true)
 
 **Figure 3:** Encrypted TLS traffic over port 443.
 

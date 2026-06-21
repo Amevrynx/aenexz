@@ -14,9 +14,14 @@
 | MAC Address       | ****************  |
 | Connection Type   | Wi-Fi             |
 
+<<<<<<< HEAD
 ![hostname](host.png)
 ---
 (I removed mac address for security concerns and public exposure)
+=======
+![hostname](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/host.png?raw=true)
+ (I removed mac address for security concerns and public exposure)
+>>>>>>> de48782 (replaced images with github urls)
 
 ---
 
@@ -166,7 +171,7 @@ Telnet is insecure because it sends credentials in plaintext.
 | nginx          | Web server                 |
 | netdata        | Monitoring service         |
 
-![ps aux](ps.png)
+![ps aux](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/ps.png?raw=true)
 
 ### Unknown Processes
 
@@ -200,15 +205,15 @@ Usable Range:
 | 192.168.1.2 | Yes               | Mobile         |
 | 192.168.1.8 | Yes               | Laptop         |
 
-![pingsweep image](pingsweep.png)
+![pingsweep image](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/pingsweep.png?raw=true)
 
 **ifconfig results**
-![ifconfig image1](ifconfig1.png)
+![ifconfig image1](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/ifconfig1.png?raw=true)
 
 **i removed full ifconfig for security issues**
 
 **netstat results**
-![netstat image](nt2.png)
+![netstat image](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/nt2.png?raw=true)
 
 ---
 
