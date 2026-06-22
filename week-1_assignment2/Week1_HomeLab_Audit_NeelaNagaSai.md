@@ -15,6 +15,9 @@
 | Connection Type   | Wi-Fi             |
 
 ![hostname](https://github.com/Amevrynx/aenexz/blob/master/week-1_assignment2/host.png?raw=true)
+
+---
+
  (I removed mac address for security concerns and public exposure)
 
 ---
