@@ -1,0 +1,23 @@
+SECURECORP — WEEK 1 PLACEMENT CHECKLIST
+
+workingevidence/week1/
+ 01_Report_Material/
+    SecureCorp_Week1_Deliverables.docx
+ 02_Evidence_Register/
+    Week1_Evidence_Register.txt
+ 03_Network_Diagram/
+    final_network_diagram.png
+ 04_Checklists/
+    Week1_Placement_Checklist.txt
+ 05_Evidence/
+     ubuntu/
+     kali/
+     arch-host/
+
+APPENDIX E — WEEK 1 RELEVANT ITEMS
+[ ] Network Diagram / Application Map
+[ ] Asset Inventory
+[ ] CIA Analysis
+[ ] Risk Assessment
+[ ] Wazuh dashboard screenshots (agents Active)
+[ ] Evidence files named and organized

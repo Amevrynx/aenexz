@@ -1,0 +1,28 @@
+SECURECORP — WEEK 1 EVIDENCE REGISTER
+
+01-hostnamectl.png  - Ubuntu hostname and operating-system identification
+02-ipaddr.png       - Ubuntu network addressing
+03-storage.png      - Disk/storage information
+04-memory.png       - Memory information
+05-apache-running.png - Apache service status
+06-mariadb-running.png - MariaDB service status
+07-ssh-running.png  - SSH service status
+08-auditd-running.png - auditd service status
+09-agent-active.png - Wazuh agent service status
+10-kali-ping.png    - Kali-to-Ubuntu connectivity
+11-ubuntu-ping.png  - Ubuntu-to-Kali connectivity
+12-dvwa-login.png   - DVWA login page
+13-dvwa-home.png    - DVWA home page after login
+14-wazuh-dashboard.png - Wazuh dashboard
+15-wazuh-agent-running.png - Wazuh agent running on Ubuntu
+16-wazuh-agents-connected.png - Wazuh agents enrolled/connected (baseline screenshot)
+19-kali-wazuh-connected.png - Kali Wazuh agent connected (local screenshot obtained; place in kali/ before final commit)
+17-dvwa-security-low.png - DVWA configured at Low security
+18-dvwa-db-created.png - DVWA database creation/setup evidence
+
+NETWORK DETAILS
+Arch host: 192.168.1.8
+Kali VM: 192.168.122.139/24, gateway 192.168.122.1
+Ubuntu VM: 192.168.122.138/24
+Kali/Ubuntu lab segment: 192.168.122.0/24
+
