@@ -1,0 +1,42 @@
+Established lab:
+Wazuh manager: Arch Linux host — 192.168.1.8
+Ubuntu DVWA/Wazuh agent: neil-Standardpc-Q35-ICH9-2009 — 192.168.112.138
+Kali attacker: neil-kali-2026Q35 — 192.168.110.16
+[BLUE TEAM — SSH BRUTE-FORCE INVESTIGATION]
+
+Analyst:
+  Target agent: neil-Standardpc-Q35-ICH9-2009
+  Target IP: 192.168.112.138
+  Suspected source: 192.168.110.16
+
+Investigation scope:
+  Linux authentication / SSHD telemetry
+
+Search:
+  source IP = 192.168.110.16
+  agent = neil-Standardpc-Q35-ICH9-2009
+
+Representative reconstructed event sequence:
+
+  Linux authentication:
+    Failed SSH authentication
+    Failed SSH authentication
+    Failed SSH authentication
+    Failed SSH authentication
+
+  Wazuh correlation:
+    Rule 5710 — multiple SSH authentication failures
+    Rule 5763 — SSHD brute-force attack detected
+
+  Supporting context:
+    Rule 5720 — invalid/non-existent username [when present]
+    Rule 5716 — successful SSH login [when present]
+
+Analyst conclusion:
+  The repeated authentication failures originate from the controlled Kali
+  source and match the documented brute-force detection methodology.
+
+Detection classification:
+  WAZUH RULE-BASED DETECTION + EVENT CORRELATION
+
+No exact historical timestamps or alert IDs are asserted here.
