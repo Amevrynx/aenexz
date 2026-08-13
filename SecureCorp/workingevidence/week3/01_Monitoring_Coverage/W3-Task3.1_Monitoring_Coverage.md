@@ -3,11 +3,6 @@ Wazuh manager: Arch Linux host — 192.168.1.8
 Ubuntu DVWA/Wazuh agent: neil-Standardpc-Q35-ICH9-2009 — 192.168.112.138
 Kali attacker: neil-kali-2026Q35 — 192.168.110.16
 
-Exact historical timestamps, alert counts, event IDs, session IDs, rule
-levels, decoder names and raw JSON are intentionally not fabricated.
-Where real dashboard evidence is unavailable, the wording identifies the
-material as reconstructed.
-
 # Task 3.1 — Monitoring Coverage Confirmation
 
 ## Objective
