@@ -1,0 +1,18 @@
+WEEK 2 → WEEK 3 CORRELATION CONTEXT
+
+Kali attacker:
+  neil-kali-2026Q35
+  192.168.110.16
+
+Ubuntu target / Wazuh agent:
+  neil-Standardpc-Q35-ICH9-2009
+  192.168.112.138
+
+Arch Wazuh manager:
+  192.168.1.8
+
+Week 3 investigation should preserve these identities and correlate:
+- brute-force authentication with SSH authentication telemetry
+- SQL injection with Apache/DVWA request telemetry
+- XSS with Apache/DVWA request telemetry
+- command injection with web request plus process/audit telemetry

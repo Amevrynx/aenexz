@@ -1,0 +1,28 @@
+SECURECORP — WEEK 2 ATTACK LOG
+Attack: Command Injection
+Date: 24 June 2026
+Attacker: neil-kali-2026Q35 / 192.168.110.16
+Target: neil-Standardpc-Q35-ICH9-2009 / 192.168.112.138
+Manager: Arch host / 192.168.1.8
+
+Objective:
+Determine whether shell metacharacters permit operating-system command
+execution through the vulnerable DVWA function.
+
+Method:
+Baseline ping followed by appended id, whoami, and pwd commands.
+
+Result:
+Command output was returned in the web response, including execution
+under the www-data account and the vulnerable application's working
+directory.
+
+Evidence:
+02_Terminal_Transcripts/W2-04_Command_Injection.txt
+
+Week 3 correlation:
+Correlate the web request with Ubuntu process/audit telemetry and the
+corresponding Wazuh events.
+
+STATUS:
+completed

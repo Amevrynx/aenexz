@@ -1,0 +1,28 @@
+SECURECORP — WEEK 2 ATTACK LOG
+Attack: Cross-Site Scripting
+Date: 24 June 2026
+Attacker: neil-kali-2026Q35 / 192.168.110.16
+Target: neil-Standardpc-Q35-ICH9-2009 / 192.168.112.138
+Manager: Arch host / 192.168.1.8
+
+Objective:
+Test whether attacker-controlled JavaScript is returned to the browser
+without appropriate output encoding.
+
+Method:
+A controlled JavaScript alert payload was submitted to the vulnerable
+DVWA XSS function and the response was inspected.
+
+Result:
+The payload was returned in executable form and the browser-side
+behaviour demonstrated the XSS condition.
+
+Evidence:
+02_Terminal_Transcripts/W2-03_XSS.txt
+
+Week 3 correlation:
+Correlate the request with Ubuntu Apache/DVWA telemetry and source
+192.168.110.16.
+
+STATUS:
+completed

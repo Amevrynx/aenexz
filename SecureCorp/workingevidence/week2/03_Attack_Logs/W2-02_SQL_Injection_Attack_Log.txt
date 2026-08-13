@@ -1,0 +1,27 @@
+SECURECORP — WEEK 2 ATTACK LOG
+Attack: SQL Injection
+Date: 24 June 2026
+Attacker: neil-kali-2026Q35 / 192.168.110.16
+Target: neil-Standardpc-Q35-ICH9-2009 / 192.168.112.138
+Manager: Arch host / 192.168.1.8
+
+Objective:
+Determine whether attacker-controlled input can alter the SQL query
+performed by the DVWA SQL Injection module.
+
+Method:
+Baseline lookup followed by boolean-manipulation payloads.
+
+Result:
+The manipulated request returned multiple records, demonstrating
+alteration of the vulnerable query logic.
+
+Evidence:
+02_Terminal_Transcripts/W2-02_SQL_Injection.txt
+
+Week 3 correlation:
+Correlate the request with Ubuntu Apache/DVWA telemetry and source
+192.168.110.16.
+
+STATUS:
+completed
