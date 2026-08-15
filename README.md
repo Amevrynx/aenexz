@@ -1,0 +1,15 @@
+This repository contains documentation, reports, and evidence related to the SecureCorp project.
+
+## Contents
+
+- **`SecureCorp/`**: The main directory containing project files.
+  - **`Screenshots/`**: Visual proofs taken after the activities.
+  - **`workingevidence/`**: Directory containing reconstructed terminal transcripts and working evidence organized by weeks (`week1` through `week4`).
+  - **`master-report(2).pdf`**: The comprehensive master report for the project.
+  - **`resume.docx`**: Related resume document.
+
+## Important Notes
+
+- **Terminal Transcripts**: The terminal transcripts provided in the `workingevidence` directory are reconstructed from the recorded activity history and are true.
+- **Screenshots**: The screenshots in the `Screenshots` directory are visual proofs that were taken later.
+- **Data Loss**: Please note that the original data of the screenshots was lost due to a hardware failure, terminal transcirpts are reconstructed from the usage logs.
